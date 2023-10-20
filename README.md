@@ -1,4 +1,6 @@
-# Text-based Actor Critic
+# Text-based Actor Critic on Text-based Games
+
+Code for CoNLL2023 paper [A Minimal Approach for Natural Language Action Space in Text-based Games]().
 
 # Quickstart
 
@@ -31,4 +33,17 @@ python run.py --redis_path /usr/local/Cellar/redis/6.2.1/bin/redis-server --redi
 ```
 
 # Acknowledgement
+
 The code is based on [TDQN and DRRN](https://github.com/microsoft/tdqn).
+
+# Citation
+
+```
+@inproceedings{dkryu2023conll,
+    title = "A Minimal Approach for Natural Language Action Space in Text-based Games",
+    author = "Ryu, Dongwon Kelvin and Fang, Meng and Haffari, Gholamreza and Pan, Shirui and Shareghi, Ehsan",
+    booktitle = "Proceedings of the 27th Conference on Computational Natural Language Learning (CoNLL)",
+    year = "2023",
+    publisher = "Association for Computational Linguistics",
+}
+```
